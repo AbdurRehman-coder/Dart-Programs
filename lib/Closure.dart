@@ -1,7 +1,7 @@
 //when we anonymiously declare a function it's called Closure
 
 cal(int b){
-  int c = 2;
+  int c;
   return () => print('the value is ${b + c++}');
 
 }

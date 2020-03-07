@@ -11,6 +11,7 @@ shape randShape;
 Random random = Random();
 int choice = random.nextInt(3);
 switch(choice){
+  
   case 0:
   randShape = circle(
     random.nextInt(20) + 1.0
